@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(27, 27, 27);
+}
+
+.body {
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  width: 105px;
+  height: 60px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.abu {
+  text-decoration-line: none;
+  color: gray;
+  font-size: 23px;
+  margin-right: 44px;
+}
+
+.abu:nth-child(1) {
+  color: rgb(0, 162, 255);
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 162, 255);
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin: 24px;
+}
+
+.body1 {
+  margin-top: 130px;
+  position: relative;
+}
+
+.hbu {
+  color: gray;
+  margin-bottom: 7px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hbu2 {
+  color: rgb(0, 162, 255);
+  font-size: 45px;
+  margin: 9px 5px 8px 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 162, 255);
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 13px;
+}
+
+.btn2 {
+  width: 170px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 13px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(36, 36, 36);
+  width: 350px;
+  height: 100px;
+  padding: 35px;
+  border-radius: 12px;
+  margin-top: 18px;
+  /* position: relative; */
+}
+
+.pbu {
+  margin-right: 20px;
+  color: gray;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img1 {
+  width: 348px;
+  height: 340px;
+  position: absolute;
+  right: 170px;
+  top: 2px;
+  border-radius: 23px;
+}
+
+.img1:hover {
+  animation: bir 2s linear;
+}
+@keyframes bir {
+  100% {
+    box-shadow: rgb(0, 162, 255) 0px 30px 90px;
+  }
+}
+
+.img2 {
+  width: 130px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.bu {
+  width: 145px;
+  height: 165px;
+  background-color: gray;
+}
